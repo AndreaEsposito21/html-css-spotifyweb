@@ -14,7 +14,14 @@
     background-color: brown;
 }
 
+ul {
+    list-style-type: none;
+}
 
+a {
+    text-decoration: none;
+    color: white;
+}
 /* HEADER */
 /* header {
     width: calc( 100% - 220px);
@@ -31,6 +38,8 @@ main {
     background-color: aquamarine;
 }
 
+
+
 nav {
     float: left;
     height: 100%;
@@ -38,22 +47,59 @@ nav {
     overflow: hidden;
     color: white;
     background-color: #000000;
+    padding: 20px;
+    font-size: 14px;
 }
 
+nav a {
+    color: #a3a3a3;
+}
 
 .logo_spotify {
-    max-height: 50px;
-    height: 85px;   
+    margin-bottom: 25px;
 }
 
-.nav_list {
+.logo_spotify img{
+    max-height: 50px;
+    height: 85px;
+    display: block;
+}
+
+
+.nav_list img{
+    max-height: 30px;
+    max-width: 30px;
+    vertical-align: middle;
+}
+
+.menu {
+    margin-bottom: 25px;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.playlist .menu {
+    overflow-y: auto;
+}
+
+.playlist a {
+    margin: 15px 0;
     display: inline-block;
 }
 
-.nav_list img{
-    max-height: 35px;
-}
 
+.square {
+    width: 35px;
+    height: 35px;
+    background-color: #a3a3a3;
+    color: black;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+}
+/* Main Content */
 .main-content {
     float: left;
     height: 100%;
