@@ -13,7 +13,14 @@
     /* TEST */
     background-color: brown;
 }
+
+
 /* HEADER */
+/* header {
+    width: calc( 100% - 220px);
+    height: 85px;
+    overflow: hidden;
+} */
 /* END HEADER */
 
 /* MAIN */
@@ -29,20 +36,32 @@ nav {
     height: 100%;
     width: 220px;
     overflow: hidden;
+    color: white;
+    background-color: #000000;
+}
 
-    /* TEST */
-    background-color: cadetblue;
+
+.logo_spotify {
+    max-height: 50px;
+    height: 85px;   
+}
+
+.nav_list {
+    display: inline-block;
+}
+
+.nav_list img{
+    max-height: 35px;
 }
 
 .main-content {
     float: left;
     height: 100%;
     width: calc( 100% - 220px );
-    overflow: auto;
+    overflow-y: auto;
     padding-top: 85px;
-
-    /* TEST */
-    background-color: gold;
+    color: white;
+    background-color: #141922;
 }
 
 
@@ -52,8 +71,7 @@ nav {
 footer {
     height: 100px;
     overflow: hidden;
-
-    /* TEST */
-    background-color: royalblue;
+    background-color: #282828;
+    color: white;
 }
 /* END FOOTER */
