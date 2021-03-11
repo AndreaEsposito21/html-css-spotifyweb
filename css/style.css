@@ -186,4 +186,32 @@ footer {
     background-color: #282828;
     color: white;
 }
+
+.icons_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.icons-left img{
+    height: 20%;
+    vertical-align: middle;
+}
+
+.icons-center a {
+    padding: 0 15px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+#play-btn {
+    padding: 0 25px;
+    font-size: 30px;
+}
+
+.icons-right a {
+    padding: 0 10px;
+    font-size: 12px;
+    vertical-align: middle;
+}
 /* END FOOTER */
