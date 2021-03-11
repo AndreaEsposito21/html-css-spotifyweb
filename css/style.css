@@ -46,6 +46,10 @@ main {
     height: calc( 100% - 100px );
 }
 
+main a:hover {
+    color: white;
+}
+
 /* Nav */
 nav {
     float: left;
@@ -60,10 +64,6 @@ nav {
 
 nav a {
     color: #a3a3a3;
-}
-
-nav a:hover {
-    color: white;
 }
 
 .inner_nav {
@@ -158,6 +158,24 @@ nav a:hover {
     padding-top: 85px;
     color: white;
     background-color: #141922;
+}
+
+.main_list {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 13px;
+}
+
+.main_list li {
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+
+.main_list a {
+    color: #a3a3a3;
 }
 /* END MAIN */
 
