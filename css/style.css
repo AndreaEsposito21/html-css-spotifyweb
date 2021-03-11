@@ -10,9 +10,6 @@
     width: 100%;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
-
-    /* TEST */
-    background-color: brown;
 }
 
 ul {
@@ -33,25 +30,23 @@ a {
     height: 85px;
     width: calc( 100% - 220px );
     text-align: right;
+    padding: 30px;
 }
-/* HEADER */
-/* header {
-    width: calc( 100% - 220px);
-    height: 85px;
-    overflow: hidden;
-} */
-/* END HEADER */
+
+.upgrade span a {
+    border: 1px solid white;
+    padding: 10px 40px;
+    border-radius: 100px;
+    font-size: 13px;
+}
+
 
 /* MAIN */
 main {
     height: calc( 100% - 100px );
-
-    /* TEST */
-    background-color: aquamarine;
 }
 
-
-
+/* Nav */
 nav {
     float: left;
     height: 100%;
@@ -60,11 +55,15 @@ nav {
     color: white;
     background-color: #000000;
     padding: 20px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 nav a {
     color: #a3a3a3;
+}
+
+nav a:hover {
+    color: white;
 }
 
 .inner_nav {
@@ -73,6 +72,7 @@ nav a {
     flex-direction: column;
 }
 
+/* Logo */
 .logo_spotify {
     margin-bottom: 25px;
 }
@@ -81,8 +81,9 @@ nav a {
     max-height: 50px;
     display: block;
 }
+/* End Logo */
 
-
+/* Nav list & Playlist*/
 .nav_list img{
     max-height: 30px;
     max-width: 30px;
@@ -94,11 +95,13 @@ nav a {
 }
 
 .menu li {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .playlist {
     flex-grow: 1;
+    min-height: 200px;
+    overflow: hidden;
 }
 
 .playlist .menu {
@@ -111,7 +114,6 @@ nav a {
     display: inline-block;
 }
 
-
 .square {
     width: 35px;
     height: 35px;
@@ -119,6 +121,32 @@ nav a {
     color: black;
     text-align: center;
     line-height: 35px;
+    vertical-align: middle;
+}
+
+.square:hover {
+    background-color: white;
+}
+
+.install {
+    height: 75px;
+}
+
+.install i {
+    padding-right: 10px;
+}
+
+.download {
+    border-bottom: 1px solid #a3a3a3;
+    padding-bottom: 10px;
+}
+
+.account {
+    margin-top: 10px;
+}
+
+.account i {
+    font-size: 30px;
     vertical-align: middle;
 }
 /* Main Content */
@@ -131,8 +159,6 @@ nav a {
     color: white;
     background-color: #141922;
 }
-
-
 /* END MAIN */
 
 /* FOOTER */
