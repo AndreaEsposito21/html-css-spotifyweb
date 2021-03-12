@@ -177,6 +177,10 @@ nav a {
 .main_list a {
     color: #a3a3a3;
 }
+
+.section-title {
+    width: 80%;
+}
 /* END MAIN */
 
 /* FOOTER */
