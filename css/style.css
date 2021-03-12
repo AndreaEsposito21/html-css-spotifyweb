@@ -182,29 +182,37 @@ nav a {
     color: #a3a3a3;
 }
 
+.main-content p {
+    color: #a3a3a3;
+    font-size: 14px;
+}
 /* Main content inner */
 
 .section-title {
-    width: 80%;
     padding: 20px;
+    margin-top: 40px;
 }
 
+.section-title p {
+    padding: 20px 0;
+}
 /* Albums */
 .albums {
     display: flex;
     flex-wrap: wrap;
 }
 
-.section-title p {
-    color: #a3a3a3;
-    font-size: 14px;
-    padding: 20px 0;
+.subtitle {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
 }
 
 .single-album {
     width: 250px;
     height: 250px;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .artist img {
