@@ -234,6 +234,55 @@ footer {
     padding: 20px;
 }
 
+/* Player Time */
+.icons-center {
+    flex-basis: 40%;
+}
+
+.player-controller-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-controller-time {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.left-bar{
+    flex-basis: 10%;
+    font-size: 10px;
+}
+
+.central-bar-container {
+    flex-basis: 80%;
+}
+
+.central-bar{
+    height: 3px;
+    background-color: #5a5a5a;
+    position: relative;
+}
+
+.progression-bar {
+    height: 3px;
+    width: 15%;
+    background-color: #c1c1c1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.right-bar{
+    flex-basis: 10%;
+    text-align: right;
+    font-size: 10px;
+}
+/* End Player Time */
+
 .icons-left img{
     width: 70px;
     height: 70px;
