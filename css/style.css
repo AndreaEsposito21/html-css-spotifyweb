@@ -215,6 +215,10 @@ nav a {
     margin-bottom: 20px;
 }
 
+.single-album img:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
 .artist img {
     border-radius: 50%;
 }
@@ -230,14 +234,21 @@ footer {
 
 .icons_footer {
     display: flex;
-    justify-content: space-between;
     padding: 20px;
 }
 
 /* Player Time */
 .icons-center {
     flex-basis: 40%;
+    flex-grow: 2;
 }
+
+.icons-center a {
+    padding: 0 15px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
 
 .player-controller-icons {
     display: flex;
@@ -283,17 +294,37 @@ footer {
 }
 /* End Player Time */
 
-.icons-left img{
+.mini-player img{
     width: 70px;
     height: 70px;
     vertical-align: middle;
 }
-
-.icons-center a {
-    padding: 0 15px;
-    font-size: 20px;
-    vertical-align: middle;
+/* Icon Left */
+.mini-player {
+    flex-basis: 10%;
+    align-items: center;
+    flex-grow: 1;
 }
+
+.icons-left {
+    flex-basis: 10%;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* Icon Right */
+.icons-right {
+    flex-basis: 10%;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.volume-bar {
+    flex-basis: 10%;
+    align-items: center;
+    flex-grow: 1;
+}
+
 
 #play-btn {
     padding: 0 25px;
