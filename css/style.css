@@ -85,6 +85,10 @@ nav a {
     max-height: 50px;
     display: block;
 }
+
+.small-logo {
+    display: none;
+}
 /* End Logo */
 
 /* Nav list & Playlist*/
@@ -190,7 +194,6 @@ nav a {
 
 .section-title {
     padding: 20px;
-    margin-top: 40px;
 }
 
 .section-title p {
@@ -204,7 +207,6 @@ nav a {
 
 .single-album {
     width: 250px;
-    height: 250px;
     padding: 20px;
     margin-bottom: 20px;
     position: relative;
@@ -253,7 +255,6 @@ nav a {
 
 /* FOOTER */
 footer {
-    height: 100px;
     background-color: #282828;
     color: white;
 }
@@ -286,7 +287,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 10px;
 }
 
 .left-bar{
@@ -344,6 +344,13 @@ footer {
     font-size: 10px;
 }
 
+.name-album-icon a {
+    color: #a3a3a3;
+}
+
+.name-album-icon a:hover {
+    color: white;
+}
 /* Icon Right */
 .icons-right {
     flex-basis: 20%;
@@ -377,18 +384,53 @@ footer {
 /* MEDIA QUERIES */
 
 /* XS Screen */
+
 @media screen and ( max-width: 556px ) {
     
+    /* Nav */
     nav {
         width: 50px;
     }
 
+    /* Logo */
+    .logo_spotify {
+        display: none;
+    }
+    .small-logo {
+        display: inline-block;
+    }
+    .small-logo img {
+        width: 100%;
+    }
+    /* End Logo */
+
+    .nav_list span {
+        display: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    .install {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    /* End Nav */
+
+    /* Main Content */
     .main-content {
         width: calc( 100% - 50px );
     }
 
+    .single-album {
+        width: 210px;
+        height: 260px;
+    }
+    /* End Main Content */
 
-
-
-
+    .upgrade {
+        width: calc( 100% - 50px );
+    }
 }
