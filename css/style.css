@@ -404,6 +404,9 @@ footer {
         width: 100%;
     }
     /* End Logo */
+    .nav_list {
+        flex-grow: 3;
+    }
 
     .nav_list span {
         display: none;
@@ -411,10 +414,6 @@ footer {
 
     .playlist {
         display: none;
-    }
-
-    .install {
-        padding-top: 415px;
     }
 
     .install span{
