@@ -463,6 +463,10 @@ footer {
     .icons-right {
         flex-basis: 30%;
     }
+
+    .icons-right a {
+        padding: 0px 5px;
+    }  
     /* End Nav */
 
     /* Main Content */
