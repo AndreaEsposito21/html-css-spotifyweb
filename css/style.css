@@ -206,7 +206,7 @@ nav a {
 }
 
 .single-album {
-    max-width: 250px;
+    width: calc(100% / 6);
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -258,11 +258,12 @@ nav a {
 footer {
     background-color: #282828;
     color: white;
+    height: 100px;
 }
 
 .icons_footer {
     display: flex;
-    padding: 20px;
+
 }
 
 /* Player Time */
@@ -277,6 +278,9 @@ footer {
     vertical-align: middle;
 }
 
+.icons-center-inner {
+    padding: 5px;
+}
 
 .player-controller-icons {
     display: flex;
@@ -332,6 +336,7 @@ footer {
 .icons-left-inner {
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 .name-album {
@@ -362,6 +367,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    padding: 10px;
 }
 
 .central-bar-volum-container {
@@ -384,6 +390,29 @@ footer {
 
 
 /* MEDIA QUERIES */
+
+/* LG Screen */
+@media screen and ( min-width: 2560px ) {
+    
+}
+/* End LG Screen */
+
+/* MD Screen */
+@media screen and ( max-width: 1440px ) {
+    .single-album {
+        width: calc(100% / 4);
+    }
+}
+/* End MD Screen */
+
+/* S Screen */
+@media screen and ( max-width: 768px ) {
+    .single-album {
+        width: calc(100% / 2);
+    }
+}
+/* End S Screen */
+
 
 /* XS Screen */
 
@@ -475,8 +504,7 @@ footer {
     }
 
     .single-album {
-        width: 210px;
-        height: 260px;
+        width: calc(100% / 2);
     }
     /* End Main Content */
 
@@ -486,23 +514,4 @@ footer {
 }
 
 /* End XS Screen */
-
-/* S Screen */
-@media screen and ( max-width: 768px ) {
-
-}
-/* End S Screen */
-
-/* MD Screen */
-@media screen and ( max-width: 1440px ) {
-    
-}
-/* End MD Screen */
-
-/* LG Screen */
-@media screen and ( min-width: 2560px ) {
-    
-}
-/* End LG Screen */
-
 /* END MEDIA QUERIES */
