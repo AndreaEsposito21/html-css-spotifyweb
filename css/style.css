@@ -206,9 +206,12 @@ nav a {
 }
 
 .single-album {
-    width: 250px;
+    max-width: 250px;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.overlay {
     position: relative;
 }
 
@@ -226,7 +229,6 @@ nav a {
 .img-album {
     opacity: 1;
     display: block;
-    width: 100%;
 }
 
 .mid-img {
